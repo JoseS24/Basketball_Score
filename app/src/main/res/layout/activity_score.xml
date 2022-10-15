@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoreActivity">
+
+        <ImageView
+            android:id="@+id/balon2"
+            android:layout_width="201dp"
+            android:layout_height="203dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="99dp"
+            android:layout_marginTop="148dp"
+            android:layout_marginEnd="110dp"
+            android:layout_marginBottom="380dp"
+            app:srcCompat="@drawable/balon" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="54dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="619dp"
+            android:text="Local - Visitante"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/espacio"
+            android:layout_width="83dp"
+            android:layout_height="49dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="158dp"
+            android:layout_marginTop="442dp"
+            android:layout_marginEnd="170dp"
+            android:layout_marginBottom="238dp"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="#131313"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mensajeFinal"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="589dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="84dp"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            tools:text="mensaje"/>
+
+        <TextView
+            android:id="@+id/finalLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="398dp"
+            android:layout_marginEnd="233dp"
+            android:layout_marginBottom="192dp"
+            android:textAlignment="center"
+            android:textSize="60sp"
+            tools:text="PL" />
+
+        <TextView
+            android:id="@+id/finalVisita"
+            android:layout_width="147dp"
+            android:layout_height="141dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="398dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="192dp"
+            android:textAlignment="center"
+            android:textSize="60sp"
+            tools:text="PV" />
+    </RelativeLayout>
+</layout>

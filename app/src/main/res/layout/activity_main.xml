@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+    </data>
+
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/balon"
+            android:layout_width="176dp"
+            android:layout_height="179dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="114dp"
+            android:layout_marginTop="247dp"
+            android:layout_marginEnd="121dp"
+            android:layout_marginBottom="305dp"
+            app:srcCompat="@drawable/balon" />
+
+        <Button
+            android:id="@+id/menos1Local"
+            android:layout_width="70dp"
+            android:layout_height="58dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="103dp"
+            android:layout_marginEnd="310dp"
+            android:layout_marginBottom="570dp"
+            android:text="-1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/menos1Visita"
+            android:layout_width="65dp"
+            android:layout_height="54dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="561dp"
+            android:layout_marginEnd="313dp"
+            android:layout_marginBottom="116dp"
+            android:text="-1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/mas2Local"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="302dp"
+            android:layout_marginTop="136dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginBottom="534dp"
+            android:text="+2"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/mas1Local"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="302dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginBottom="649dp"
+            android:text="+1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/mas2Visita"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="298dp"
+            android:layout_marginTop="623dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="46dp"
+            android:text="+2"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/mas1Visita"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="302dp"
+            android:layout_marginTop="487dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="188dp"
+            android:text="+1"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/reiniciar_marcador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="304dp"
+            android:layout_marginEnd="308dp"
+            android:layout_marginBottom="358dp"
+            app:srcCompat="@drawable/reinicio" />
+
+        <Button
+            android:id="@+id/marcador_final"
+            android:layout_width="65dp"
+            android:layout_height="51dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="311dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="369dp"
+            android:text=">"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/letrero_local"
+            android:layout_width="128dp"
+            android:layout_height="46dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="139dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="144dp"
+            android:layout_marginBottom="653dp"
+            android:text="Local"
+            android:textAlignment="center"
+            android:textSize="38sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/letrero_visita"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="643dp"
+            android:layout_marginEnd="127dp"
+            android:layout_marginBottom="42dp"
+            android:text="Visitante"
+            android:textAlignment="center"
+            android:textSize="38sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/marcador_local"
+            android:layout_width="wrap_content"
+            android:layout_height="108dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="149dp"
+            android:layout_marginTop="101dp"
+            android:layout_marginEnd="158dp"
+            android:layout_marginBottom="522dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="80sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/marcador_visitante"
+            android:layout_width="wrap_content"
+            android:layout_height="108dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="149dp"
+            android:layout_marginTop="523dp"
+            android:layout_marginEnd="158dp"
+            android:layout_marginBottom="99dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="80sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</layout>
